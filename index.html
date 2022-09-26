@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <div id="promodoro">
+        <div id="clock">
+            <div id="timer">
+                <div id="title">
+                    Ready?
+                </div>
+                <div id="counter">
+                    <span id="minutes">30</span>
+                    <span id="colon">:</span>
+                    <span id="seconds">00</span>
+                </div>
+                <div id="control">
+                    <div id="start">START</div>
+                    <div id="reset">RESET</div>
+                    <div id="pause">PAUSE</div>
+                </div>
+            </div>
+        </div>
+        <div id="options">
+            <i id="increase_session"></i>
+            <div id="session">
+                <span>Session</span>
+                <input id="sessionInput" type="number" value="30" max="60" min="5">
+            </div>
+            <i id="decrese_session"></i>
+            <i id="increase_break"></i>
+            <div id="break">
+                <span>Break</span>
+                <input id="breakInput" type="number" value="5" max="10" min="1">
+            </div>
+            <i id="decrese_break"></i>
+        </div>
+    </div>
+    
+</body>
+<link rel="stylesheet" href="./style.css">
+<script src="./promodoro.js"></script>
+</html>
